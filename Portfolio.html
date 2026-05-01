@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Misbah | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0a0f1c;
+color:white;
+}
+
+/* NAVBAR */
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 8%;
+background:#0f172a;
+position:fixed;
+width:100%;
+z-index:100;
+}
+
+nav h2{
+color:#00f7ff;
+}
+
+nav a{
+margin-left:20px;
+color:white;
+text-decoration:none;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#00f7ff;
+}
+
+/* HERO */
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.hero span{
+background:linear-gradient(90deg,#00f7ff,#38bdf8);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+.hero p{
+margin-top:10px;
+color:#94a3b8;
+}
+
+.btn{
+margin-top:25px;
+padding:12px 25px;
+border-radius:8px;
+background:linear-gradient(90deg,#00f7ff,#38bdf8);
+color:black;
+font-weight:bold;
+text-decoration:none;
+}
+
+/* SECTION */
+section{
+padding:100px 8%;
+}
+
+h2{
+margin-bottom:20px;
+color:#00f7ff;
+}
+
+/* CARDS */
+.card{
+background:#111827;
+padding:20px;
+border-radius:12px;
+margin-top:15px;
+border:1px solid #1f2937;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+border-color:#00f7ff;
+}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:25px;
+background:#0f172a;
+color:#94a3b8;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<h2>Misbah</h2>
+<div>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+<h1>Hi, I'm <span>Misbah</span></h1>
+<p>Computer Science Student | Python | C | Web Developer</p>
+<a class="btn" href="#projects">Explore Work</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+Focused and disciplined computer science student with strong interest in programming, logical thinking, and software development. Currently building projects in Python, C, and web technologies.
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2>Skills</h2>
+<div class="card">
+Python • C Programming • HTML • CSS • Basic JavaScript • GitHub • Problem Solving . SQL . AI . Project Management
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Mini Search Engine</h3>
+<p>Implemented a basic search system using Python and data handling techniques.</p>
+</div>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Designed and developed a personal portfolio using modern HTML & CSS.</p>
+</div>
+
+<div class="card">
+<h3>Calculator Program</h3>
+<p>Built a logical calculator using core programming concepts in C/Python.</p>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+Email: alimisbah695@gmail.com <br><br>
+Phone: 03315308016 <br><br>
+GitHub: https://github.com/yourusername
+</div>
+</section>
+
+<footer>
+© 2026 Misbah | All Rights Reserved
+</footer>
+
+</body>
+</html>
